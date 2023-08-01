@@ -1,0 +1,44 @@
+/* Mobile view  */
+@media only screen and (max-width: 600px) {
+  body {
+    display: relative;
+    overflow: hidden;
+  }
+
+  .menu {
+    display: none;
+  }
+  .card-group {
+    padding: 0;
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .card-title {
+    line-height: 40px;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .resultSection {
+    position: fixed;
+    top: 0;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .inputSection {
+    margin-top: 60%;
+  }
+
+  #degree,
+  #convertedUnit {
+    padding-top: 50px;
+  }
+}
